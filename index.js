@@ -63,7 +63,8 @@ message.channel.send(embed).then(msg => {
       })
     message.channel.send({files: [link]});
     })
-message.author.send(`Thank you for <#${message.channel.id}>`).catch(console.error) 
+message.author.send(`شكرا لك علي اقتراحك لسيرفر فالكون 
+يوم سعيد <#${message.channel.id}>`).catch(console.error) 
   }
 });  
 
